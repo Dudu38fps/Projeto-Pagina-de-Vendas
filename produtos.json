@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "nome": "Camisa Básica Branca",
+        "preco": 39.99,
+        "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTkQlJ2LdEM7kTmXsYmGOdN0okHXeVbloUDPLKzKT51wDtbCIyKS_r2aSZ2P7jnG-3PfVzHqw0E9jBre4bhndzYIk2CeuXmRWHmUBf6Y-_TpXX3DPPWvOXcSyGGE6zX9F8S3CtWpix8OA&usqp=CAc"
+    }
+
+    {
+        "id": 1,
+        "nome": "Camisa Básica Preta",
+        "preco": 39.99,
+        "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQt9LzZIhjGse99246ey3tC0wrtfrPpX2tyqGc1TmUMHiNOkCTvAxnUagsX0n5UulvK5xB3SZY7CcUqf_9zGgGs0GOaLbiVlG3wLatOLXPX5e5-YYNBss19fYj_q92qWsQTk8qHYlOT&usqp=CAc"
+    }
+    {
+        "id": 1,
+        "nome": "Camisa Básica Azul",
+        "preco": 44.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw8FB1UiXhxh4JWFEDQYL30v-TvfAl_Hr0jQ&s"
+    }
+
+    {
+        "id": 1,
+        "nome": "Camisa Básica Vermelho",
+        "preco": 44.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS_Un2zQkMgHKFqsHr5P3E6p0vsGX2p6aKwYWUYZ_7CrxrIZfqMH_EaUb8apiwsmRMg3zC8KQXUCQjEPTq4R2k6bZCENU-ORaUDroBf-X9fPW1R9KisTyFWaiFTnZjtjRdxuREWR5I&usqp=CAc"
+    }
+
+    {
+        "id": 2,
+        "nome": "Bermuda Moletom ",
+        "preco": 49.99,
+        "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQIC36ReFYfNHywkbgVHalQhrvP7jLdXtZ5i53G6NWeA58KQoeNTsjK9sKafrTiL0rBHOIPGqiMGOoRQG67MHGjuW1kIFewLw7aIJetxHSLu7ui33JYbAh5iyrJ66y5V7tKjA5Jrw&usqp=CAc"
+    }
+
+    {
+        "id": 2,
+        "nome": "Bermuda Alfaiataria",
+        "preco": 89.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlO_0i-33Pr6WeFJxqT2DFK41sHoM9qjga2g&s"
+    }
+
+    {
+        "id": 2,
+        "nome": "Bermuda Sarja",
+        "preco": 69.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOjE4mvfq8_AGFhb2TUJ7NqRcVlYaB_Tsk5w&s"
+    }
+
+    {
+        "id": 3,
+        "nome": "Calça Jeans",
+        "preco": 79.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl3qOz2WSEtoUcWlpwMWYsDrPU3DpI4Tlk0g&s"
+    }
+
+    {
+        "id": 3,
+        "nome": "Calça sarja",
+        "preco": 109.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLdjbkK_Nbdv4MFowvMbIUoHp8SHADtGrkpQ&s"
+        
+    }
+
+    {
+        "id": 3,
+        "nome": "Calça Alfaiataria",
+        "preco": 139.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhYzdcl6mR6HTC2w0eHRq4MEaKuXgl6Zpj6g&s"
+    }
+
+    {
+        "id": 3,
+        "nome": "Calça Moletom",
+        "preco": 99.99,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGChlBeZCrTGa_BJTKDFRgVN_HvglRg2IvyA&s"
+    }
+]
