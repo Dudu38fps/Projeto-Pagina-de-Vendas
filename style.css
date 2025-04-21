@@ -35,9 +35,15 @@ font-weight: bold;
  }
 
  #Banner {
+    background-image: url(imagem/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2025\,\ 19_59_32.png);
+    
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 200px;
     background-color: black;
-    padding: 15px;
  }
+
 #Produtos {
     padding: 40px 20px;
 
@@ -45,20 +51,61 @@ font-weight: bold;
 
 #Produtos h2 {
     margin-bottom: 15px;
+    text-align: center;
 }
 
 
  .pdt {
+    width: 90vW;
     background-color: midnightblue;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.274);
+    display: flex;
+    gap: 40px ;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
 
  }
 
- .pdt h3 {
+  h3 {
+    border-radius: 5px 5px 0px 0px;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(23, 61, 150, 1) 0%, rgba(50, 77, 128, 1) 10%, rgba(255, 255, 255, 1) 100%);
+    
+    
+ }
+
+ .produto {
+    
+    background-color: midnightblue;
+    color: white;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.219);
+    text-align: center;
+ }
+
+ .produto img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
     margin-bottom: 10px;
+    
+ }
+
+ .produto h4 {
+    font-size: 1.1em;
+    margin: 5px 0;
+ }
+
+ .produto p {
+    color: green;
+    font-weight: bold;
  }
 
  footer {
