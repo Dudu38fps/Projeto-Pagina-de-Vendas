@@ -1,3 +1,13 @@
+function clickMenu() {
+    if(itens.style.display == 'block'){
+        itens.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+}
+
+
+
 const containers = document.querySelectorAll('.pdt')
 const camisasContainer = containers[0]
 const bermudasContainer = containers[1]
@@ -28,5 +38,6 @@ fetch ('produtos.json')
         }
     });
 })
+
 
     

@@ -12,31 +12,54 @@ body {
     background-color: aliceblue;
 }
 
-header {
-    
-    padding: 15px;
-}
+
 
 header h1 {
     text-align: center;
-    margin-bottom: 15px;
-}
-nav ul li a {
-text-decoration: none;
-font-weight: bold;
-
+    
 }
 
- nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+span#menu {
+   background-color: black;
+   color: midnightblue;
+   display: block;
+   padding: 10px;
+   text-align: center;
+   margin: 5px;
+   width: 100vw;
+}
+
+span#menu:hover {
+   background-color: midnightblue;
+   color: blanchedalmond;
+}
+
+ menu {
+    display: none;
     
  }
 
+ menu a {
+   background-color: midnightblue;
+   display: block;
+   list-style-type:none ;
+   padding: 5px;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   border-top: 1px black solid; 
+ }
+
+ menu a:hover {
+   font-size: 1.1em;
+   color: black;
+   transition: transform .5s;
+ }
+
+
  #Banner {
     background-image: url(imagem/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2025\,\ 19_59_32.png);
-    
+
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -71,6 +94,7 @@ font-weight: bold;
 
  }
 
+
   h3 {
     border-radius: 8px 8px 0px 0px;
     background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(23, 61, 150, 1) 0%, rgba(50, 77, 128, 1) 10%, rgba(255, 255, 255, 1) 100%);
@@ -85,7 +109,7 @@ font-weight: bold;
     padding: 8px;
     margin: 10px 0;
     border-radius: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.219);
+    
     text-align: center;
  }
 
@@ -106,6 +130,14 @@ font-weight: bold;
  .produto p {
     color: green;
     font-weight: bold;
+ }
+
+ .produto:hover {
+   background-color: black;
+   box-sizing: border-box;
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.219);
+   border: solid black 2px;
+   transition: transform .5s border .5s; 
  }
 
  footer {
