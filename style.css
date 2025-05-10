@@ -9,19 +9,27 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: aliceblue;
+    background-color: #f3f4f6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    font-style: normal;
 }
 
 
 
 header h1 {
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3em;
     
 }
 
 span#menu {
-   background-color: black;
-   color: midnightblue;
+   background-color: #1f2937;
+   color: white;
    display: block;
    padding: 10px;
    text-align: center;
@@ -30,7 +38,7 @@ span#menu {
 }
 
 span#menu:hover {
-   background-color: midnightblue;
+   background-color: black;
    color: blanchedalmond;
 }
 
@@ -40,7 +48,7 @@ span#menu:hover {
  }
 
  menu a {
-   background-color: midnightblue;
+   background-color: #1f2937;
    display: block;
    list-style-type:none ;
    padding: 5px;
@@ -69,6 +77,7 @@ span#menu:hover {
 
 #Produtos {
     padding: 40px 20px;
+    text-align: center;
 
 }
 
@@ -80,12 +89,13 @@ span#menu:hover {
 
  .pdt {
     width: 93vW;
-    background-color: midnightblue;
+    background-color: rgba(25, 25, 112, 0.267);
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.274);
     display: flex;
+    
     gap: 40px ;
     align-items: center;
     justify-content: center;
@@ -96,16 +106,20 @@ span#menu:hover {
 
 
   h3 {
-    border-radius: 8px 8px 0px 0px;
-    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(23, 61, 150, 1) 0%, rgba(50, 77, 128, 1) 10%, rgba(255, 255, 255, 1) 100%);
-    
+   background-color: #fff;
+   color: #1f2937;
+   padding: 5px 15px;
+   border-radius: 8px 8px 0px 0px;
+   box-shadow: 0px 2px px rgba(0, 0, 0, 0.26);
+   font-size: 1.2em;
     
  }
 
  .produto {
     
-    background-color: midnightblue;
+    background-color: rgba(25, 25, 112, 0.178);
     color: white;
+    
     padding: 8px;
     margin: 10px 0;
     border-radius: 5px;
@@ -137,7 +151,7 @@ span#menu:hover {
    box-sizing: border-box;
    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.219);
    border: solid black 2px;
-   transition: transform .5s border .5s; 
+   transition: all .5s ease; 
  }
 
  footer {
