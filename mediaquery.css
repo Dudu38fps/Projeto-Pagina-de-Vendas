@@ -25,5 +25,8 @@
 }
 
 @media screen and (min-width: 1113px) and (max-width: 1920px) {
-    
+    .pdt {
+        width: 100vw;
+        gap: 80px;
+    }
 }
