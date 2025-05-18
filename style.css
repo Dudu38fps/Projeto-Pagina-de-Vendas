@@ -16,25 +16,31 @@ body {
     font-style: normal;
 }
 
-
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-items: center;
+   padding: 20px;
+}
 
 header h1 {
-    text-align: center;
+   text-align: center;
+   width: 100vw;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 2.4em;
     
 }
 
 span#menu {
-   background-color: #1f2937;
-   color: white;
-   display: block;
-   padding: 10px;
+   background-color:white;
+   color: black;
    text-align: center;
-   margin: 5px;
-   width: 100vw;
+   cursor: pointer;
+   
+   
 }
 
 span#menu:hover {
@@ -44,11 +50,15 @@ span#menu:hover {
 
  menu {
     display: none;
+    font-size: 1.1rem;
+    text-decoration: none;
+    width: 30vw;
+    overflow: hidden;
     
  }
 
  menu a {
-   background-color: #1f2937;
+   background-color:black;
    display: block;
    list-style-type:none ;
    padding: 5px;
@@ -61,19 +71,11 @@ span#menu:hover {
  menu a:hover {
    font-size: 1.1em;
    color: black;
+   background-color: white;
+   
    transition: transform .5s;
  }
 
-
- #Banner {
-    background-image: url(imagem/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2025\,\ 19_59_32.png);
-
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 200px;
-    background-color: black;
- }
 
 #Produtos {
     padding: 40px 20px;
@@ -89,13 +91,12 @@ span#menu:hover {
 
  .pdt {
     width: 93vW;
-    background-color: rgba(25, 25, 112, 0.267);
+    background-color:white;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.274);
     display: flex;
-    
     gap: 40px ;
     align-items: center;
     justify-content: center;
@@ -117,8 +118,8 @@ span#menu:hover {
 
  .produto {
     
-    background-color: rgba(25, 25, 112, 0.178);
-    color: white;
+    background-color: white;
+    color: black;
     
     padding: 8px;
     margin: 10px 0;
@@ -150,13 +151,14 @@ span#menu:hover {
    background-color: black;
    box-sizing: border-box;
    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.219);
-   border: solid black 2px;
+   color: white;
+
    transition: all .5s ease; 
  }
 
  footer {
     text-align: center;
     padding: 15px;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     margin-top: 30px;
  }

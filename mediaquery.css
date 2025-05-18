@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+@media  screen and (min-width: 812px) and (max-width: 1112px) {
+    header h1 {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 200px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .pdt {
+        width: 100vw;
+        gap: 60px
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1113px) and (max-width: 1920px) {
+    
+}
