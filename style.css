@@ -19,14 +19,14 @@ body {
 header {
    display: flex;
    justify-content: space-between;
-   align-items: center;
-   justify-items: center;
    padding: 20px;
+   align-items: center;
+   
 }
 
 header h1 {
    text-align: center;
-   width: 100vw;
+   width: 20vw;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -41,6 +41,7 @@ span#menu {
    cursor: pointer;
    
    
+   
 }
 
 span#menu:hover {
@@ -52,16 +53,20 @@ span#menu:hover {
     display: none;
     font-size: 1.1rem;
     text-decoration: none;
-    width: 30vw;
     overflow: hidden;
-    
+    position: absolute;
+    top: 60px;
+    right: -1px;
+    z-index: 10;
+    padding: 10px;
  }
 
  menu a {
    background-color:black;
+   width: 30vw;
    display: block;
    list-style-type:none ;
-   padding: 5px;
+   padding: 3px;
    text-decoration: none;
    color: white;
    text-align: center;
